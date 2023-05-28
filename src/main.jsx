@@ -21,28 +21,29 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Shop></Shop>
+        element: <Shop></Shop>,
+        loader: () => fetch('http://localhost:5000/totlaProducts'),
       },
       {
         path: 'orders',
         element: <Orders></Orders>,
-        loader: cartProductsLoader
+        loader: cartProductsLoader,
       },
       {
         path: 'inventory',
-        element: <Inventory></Inventory>
+        element: <Inventory></Inventory>,
       },
       {
-        path:'checkout',
-        element: <Checkout></Checkout>
+        path: 'checkout',
+        element: <Checkout></Checkout>,
       },
       {
         path: 'login',
-        element: <Login></Login>
-      }
-    ]
-  }
-])
+        element: <Login></Login>,
+      },
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

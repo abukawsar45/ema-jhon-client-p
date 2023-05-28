@@ -25,3 +25,13 @@
     justify-content: space-between;
     align-items: center;
 }
+.pagination{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+.pagination .selected{
+    background-color: aqua;
+    border-style: none;
+}
