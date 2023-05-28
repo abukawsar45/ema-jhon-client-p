@@ -1,3 +1,5 @@
-<a href="https://ema-jhon-with-pagination.surge.sh/" target="_blank">Live Site</a>
+[Live Site](https://ema-jhon-with-pagination.surge.sh/){:target="_blank"}
 
-<a href="https://github.com/abukawsar45/ema-jhon-server-p.git" target="_blank">Server Git repository</a>
+[Server Git repository](https://github.com/abukawsar45/ema-jhon-server-p.git){:target="_blank"}
+
+
